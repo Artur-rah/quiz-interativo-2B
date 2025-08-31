@@ -1,62 +1,97 @@
 const perguntas = [
   {
-    enunciado: "Você prefere nike ou adidas",
+    enunciado: "pergunta 1". //a pergunta
     alternativas: [
-        {
-          texto: "nike",
-          afirmacao: [
-            "você tem bom gosto",
-            "você é o cara"
+      {
+        texto: "nike", //primeira alternativa
+        afirmacao: [
+         "voce tem bom gosto", //comentário para a resposta
+         "afirmação 2"         //seugnod comentário
           ],
-        },
-        {
-          texto: "adidas",
-          afirmacao: [
-            "você é viado",
-            "você não sabe escolher"
-          ],
-        }
-      ]
+      },
+      {
+        texto: "adidas",
+        afirmacao: [
+          "você é vaiado"
+          "você não sabe escolher"
+        ],
+      }
+    ]
   },
-  const perguntas = [
   {
-    enunciado: "Você prefere nike ou adidas",
+    enunciado: "pergunta 2"
     alternativas: [
         {
-          texto: "nike",
+          texto: "nike"
           afirmacao: [
             "você tem bom gosto",
-            "você é o cara"
+            "afirmação 2"
           ],
         },
         {
           texto: "adidas",
           afirmacao: [
-            "você é viado",
+            "você é vaiado",
             "você não sabe escolher"
           ],
         }
-      ]
-  },
-  const perguntas = [
+    ]  
+  },  
   {
-    enunciado: "Você prefere nike ou adidas",
+    enunciado: "pergunta 4",
     alternativas: [
-        {
-          texto: "nike",
-          afirmacao: [
-            "você tem bom gosto",
-            "você é o cara"
-          ],
-        },
-        {
-          texto: "adidas",
-          afirmacao: [
-            "você é viado",
-            "você não sabe escolher"
-          ],
-        }
-      ]
+      {
+        texto: "nike",
+        afirmacao: [
+          "você tem bom gosto",
+          "afirmação 2"
+        ],
+      },
+      {
+        texto: "adidas"
+        afirmacao: [
+          "você é vaiado"
+          "você não sabe escolher"
+        ],
+      }
+    ]
   },
-  
+  {
+    enunciado: "Você prefere nike out adidas?",
+    alternativas: [
+      {
+        texto: "nike",
+        afirmacao: [
+          "você tem bom gosto",
+          "afirmação 2"
+        ],
+      },
+      {
+        texto: "adidas"
+        afirmacao: [
+          "você é vaiado"
+          "você não sabe escolher"
+        ],
+      }
+    ]
+  },
+  {
+    enunciado: "pergunta 5",
+    alternativas: [
+      {
+        texto: "nike",
+        afirmacao: [
+          "você tem bom gosto",
+          "afirmação 2"
+        ],
+      },
+      {
+        texto: "adidas",
+        afirmacao: [
+          "você é vaiado",
+          "você não sabe escolher"
+        ],
+      }
+    ]
+  }
 ]
