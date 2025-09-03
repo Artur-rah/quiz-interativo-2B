@@ -10,6 +10,7 @@ const telaInicial = document.querySelector(".tela-inicla");
 
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
 botaoIniciar.addEventListener('click', iniciaJogo);
 
@@ -22,4 +23,26 @@ function iniciaJogo() {
     mostraPergunta();
 }
 
-function mostraPergunta(){};
+function mostraPergunta() {
+    if(atual >= perguntas.length{
+        mostraResultado():
+        return;
+    }
+    perguntaAtual = pergutas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = "";
+    mostraAlternativas();
+}
+
+function mostraAlternativas() {}
+
+function mostraResultado() {
+    caixaPerguntas.textContext = `Após tudo isso, ${nome} descobriu que`;
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+    caixaResultado.classList.add(".mostrar");
+    botaoJogarNovamente.addEventListener("click", jogarNovamente);
+}
+
+function jogarNovamente() {}
+
