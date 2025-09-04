@@ -1,63 +1,63 @@
 const perguntas = [
   {
-    enunciado: "pergunta 1". //a pergunta
+    enunciado: "Qual sua série favorita entre essas duas"
     alternativas: [
       {
-        texto: "nike", //primeira alternativa
+        texto: "the rookie"
         afirmacao: [
-         "voce tem bom gosto", //comentário para a resposta
-         "afirmação 2"         //seugnod comentário
+         "Aí sim em meu chapa", //comentário para a resposta
+         "Ta potente"         //seugnod comentário
           ],
       },
       {
-        texto: "adidas",
+        texto: "my little pony",
         afirmacao: [
-          "você é vaiado"
-          "você não sabe escolher"
+          "que isso mn, ta assistindo serie de criança"
+          "não ta sabendo escolher mesmo viu"
         ],
       }
     ]
   },
   {
-    enunciado: "pergunta 2"
+    enunciado: "Qual o melhor HULK"
     alternativas: [
         {
-          texto: "nike"
+          texto: "Hulk normal"
           afirmacao: [
-            "você tem bom gosto",
-            "afirmação 2"
+            "A unica resposta certa.",
+            "Você ta valido."
           ],
         },
         {
-          texto: "adidas",
+          texto: "she hulk",
           afirmacao: [
-            "você é vaiado",
-            "você não sabe escolher"
+            "namoral cara, que porra de resposta que é essa",
+            "she hulk é uma MERDA"
           ],
         }
     ]  
   },  
   {
-    enunciado: "pergunta 4",
+    enunciado: "O homem de ferro é o goat?",
     alternativas: [
       {
-        texto: "nike",
+        texto: "sim",
         afirmacao: [
-          "você tem bom gosto",
-          "afirmação 2"
+          "sem sombra de duvida",
+          "ele é o goat."
         ],
       },
       {
-        texto: "adidas"
+        texto: "não"
         afirmacao: [
-          "você é vaiado"
-          "você não sabe escolher"
+          "pare de gastar o oxigenio desse mundo."
+          "suas opiniões são inuties."
         ],
       }
     ]
   },
   {
-    enunciado: "Você prefere nike out adidas?",
+    enunciado: "Qual o melhor ator de homem aranha?",
     alternativas: [
       {
         texto: "nike",
