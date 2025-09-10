@@ -76,19 +76,19 @@ const perguntas = [
     ]
   },
   {
-    enunciado: "pergunta 5",
+    enunciado: "Qual o melhor jogo dentre destes dois",
     alternativas: [
       {
-        texto: "nike",
+        texto: "read dead redemption 2",
         afirmacao: [
-          "você tem bom gosto",
-          "afirmação 2"
+          "you're not a good man arthur, but you're not a bad man either.",
+          "melhor jogo de todos os tempos cara slk"
         ],
       },
       {
-        texto: "adidas",
+        texto: "Ultrakill",
         afirmacao: [
-          "você é vaiado",
+          "rdr2 é melhor, e eu sou fan de ultrakill",
           "você não sabe escolher"
         ],
       }
