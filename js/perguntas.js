@@ -60,17 +60,17 @@ const perguntas = [
     enunciado: "Qual o melhor ator de homem aranha?",
     alternativas: [
       {
-        texto: "nike",
+        texto: "tom holland",
         afirmacao: [
-          "você tem bom gosto",
-          "afirmação 2"
+          "a pra ser sincero n é ruim",
+          "tá aceitavel"
         ],
       },
       {
-        texto: "adidas"
+        texto: "Toby Maguire"
         afirmacao: [
-          "você é vaiado"
-          "você não sabe escolher"
+          "esse aí é o OG"
+          "Boa escolha"
         ],
       }
     ]
