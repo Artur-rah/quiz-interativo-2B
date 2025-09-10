@@ -89,7 +89,7 @@ const perguntas = [
         texto: "Ultrakill",
         afirmacao: [
           "rdr2 é melhor, e eu sou fan de ultrakill",
-          "você não sabe escolher"
+          "continua sendo um puta jogaço"
         ],
       }
     ]
