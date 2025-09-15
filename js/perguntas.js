@@ -8,6 +8,7 @@ export const perguntas = [
          "Aí sim em meu chapa", //comentário para a resposta
          "Ta potente"         //seugnod comentário
           ],
+          proxima: 1,
       },
       {
         texto: "my little pony",
@@ -15,6 +16,7 @@ export const perguntas = [
           "que isso mn, ta assistindo serie de criança"
           "não ta sabendo escolher mesmo viu"
         ],
+          proxima: 1,
       }
     ]
   },
@@ -27,6 +29,7 @@ export const perguntas = [
             "A unica resposta certa.",
             "Você ta valido."
           ],
+            proxima: 2,
         },
         {
           texto: "she hulk",
@@ -34,6 +37,7 @@ export const perguntas = [
             "namoral cara, que porra de resposta que é essa",
             "she hulk é uma MERDA"
           ],
+            proxima: 2,
         }
     ]  
   },  
@@ -46,6 +50,7 @@ export const perguntas = [
           "sem sombra de duvida",
           "ele é o goat."
         ],
+        proxima: 3,
       },
       {
         texto: "não"
@@ -53,6 +58,7 @@ export const perguntas = [
           "pare de gastar o oxigenio desse mundo."
           "suas opiniões são inuties."
         ],
+          proxima: 3,
       }
     ]
   },
@@ -65,6 +71,7 @@ export const perguntas = [
           "a pra ser sincero n é ruim",
           "tá aceitavel"
         ],
+        proxima: 4,
       },
       {
         texto: "Toby Maguire"
@@ -72,6 +79,7 @@ export const perguntas = [
           "esse aí é o OG"
           "Boa escolha"
         ],
+          proxima: 4,
       }
     ]
   },
@@ -96,3 +104,4 @@ export const perguntas = [
   }
 
 ]
+
