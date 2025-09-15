@@ -1,4 +1,4 @@
-const perguntas = [
+export const perguntas = [
   {
     enunciado: "Qual sua série favorita entre essas duas"
     alternativas: [
@@ -94,4 +94,5 @@ const perguntas = [
       }
     ]
   }
+
 ]
