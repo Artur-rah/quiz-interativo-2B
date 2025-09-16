@@ -1,4 +1,4 @@
-import {aleatorio} from './aleatorio.js';
+import {aleatorio, nome} from './aleatorio.js';
 import {perguntas} from './perguntas.js';
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
@@ -8,7 +8,7 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const botaoJogarNovamente = document.querySelector(".novamente-btn");
 const botaoIniciar = document.querySelector(".iniciar-btn");
-const telaInicial = document.querySelector(".tela-inicla");
+const telaInicial = document.querySelector(".tela-inicial");
 
 let atual = 0;
 let perguntaAtual;
