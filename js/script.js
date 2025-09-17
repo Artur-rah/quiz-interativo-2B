@@ -27,11 +27,11 @@ function iniciaJogo() {
 }
 
 function mostraPergunta() {
-    if(atual >= perguntas.length{
+    if(atual >= perguntas.length){
         mostraResultado():
         return;
     }
-    perguntaAtual = pergutas[atual];
+    perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
     mostraAlternativas();
@@ -49,10 +49,10 @@ function mostraAlternativas() {
 function respostaSelecionada(opcaoSelecionada) {}
 
 function mostraResultado() {
-    caixaPerguntas.textContext = `Após tudo isso, ${nome} descobriu que`;
+    caixaPerguntas.textContent = `Após tudo isso, ${nome} descobriu que`;
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
-    caixaResultado.classList.add(".mostrar");
+    caixaResultado.classList.add("mostrar");
     botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
 
