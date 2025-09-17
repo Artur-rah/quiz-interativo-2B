@@ -46,15 +46,37 @@ function mostraAlternativas() {
     }
 }
 
-function respostaSelecionada(opcaoSelecionada) {}
+function respostaSelecionada(opcaoSelecionada) {
+   const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
+   historiaFinal += afirmacoes + " ";
+   if(opcaoSelecionada.proxima "== underfined) {
+       atual = opcaoSelecionada.proxima;
+   }else {
+     mostraResultado();
+     return;
+   }
+    mostraPergunta();
+}
 
-function mostraResultado() {
-    caixaPerguntas.textContent = `Após tudo isso, ${nome} descobriu que`;
+function mostraResultado(){
+    caixaPerguntas.textContent = `Após os estudos, ${nome} descobriu que`;
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
     caixaResultado.classList.add("mostrar");
     botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
 
+function jogarNovamente(){
+    atual = 0;
+    historiaFinal = "";
+    caixaResultado.classList.remove("mostrar");
+    mostraPergunta();
+}
+
+function substituiNome() {
+    for(const pergunta of perguntas) {
+        pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+    }
+}
 function jogarNovamente() {}
 
